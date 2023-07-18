@@ -1,8 +1,8 @@
 ---
 layout: Home
 seo:
-  title: Web Developer
-  description: Custom description for this page goes here
+  title: Full-Stack Developer
+  description: Abi Fauzan Portfolio & Personal Site
 ---
 
 ---main
@@ -15,34 +15,32 @@ images:
 
 ---
 
-# <Typewriter>Carl Hanson</Typewriter>
+# <Typewriter>Abi Fauzan</Typewriter>
 
-# _Web Developer_ <span>&</span> _Growth Consultant_
+# _Full-Stack Developer_
 
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle.
+I am an experienced Web Engineer with expertise in all stages of advanced web development. I am knowledgeable in UI/UX creation, Front-end and Back-end integration, testing, and debugging processes. As a Full-stack Developer, I am proficient in various technologies, including React, Next, Node, MySQL, and Tailwind CSS. I have the ability to effectively self-manage during independent projects and work collaboratively as part of a productive team.
 
 ```js {2-4} showLineNumbers
 const services = [
-  'UI/UX Design'
-  'Web Development'
-  'Mobile App Development'
+  'Any Web Development'
+  'UI/UX Slicing'
+  'Software Development'
 ]
-if (have_a_project) navigate('/contact')
+if (you_have_a_project?)
+    mailto('abifauzan234@gmail.com')
 ```
 
 ---achievements
 
-- number: 6+
+- number: 7+
   text: Years of experience
-- number: 70+
-  text: Projects Completed
-- number: 12
-  text: OpenSource Libraries
 - number: 50+
-  text: Clients World Wide
+  text: Projects/Features Deployed
+- number: 3+
+  text: Full-time employees
+- number: 15+
+  text: Essentials Developer Skills
 
 ---
 
@@ -72,3 +70,24 @@ list:
   src: /icons/logo-4.svg
 
 ---
+
+---contact
+
+<PageTitle className="bg-transparent">
+### Get in touch
+### _Let's talk about your project_
+</PageTitle>
+
+Thinking about a new project, a problem to solve, or just want to connect? Let's do it!
+
+<Sep size="12" />
+
+<small>
+  <Icon src="/icons/call.svg" className="inline mr-2 align-middle fill-current text-omega-500" /> Phone: (62) 8212 2269 601
+
+<Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Email: abifauzan234@gmail.com
+
+<Icon src="/icons/logo-linkedin.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> LinkedIn: [Abi Fauzan](http://linkedin.com/in/abifauzan)
+
+<Icon src="/icons/logo-twitter.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Github: [abifauzan](http://github.com/abifauzan)
+</small>

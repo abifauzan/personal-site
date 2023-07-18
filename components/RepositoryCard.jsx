@@ -28,20 +28,20 @@ const DateComponent = (props) => {
       </div>
       <div
         className={classNames(
-          'mt-auto flex justify-between px-4 py-3 font-mono font-bold md:px-6',
+          'mt-auto flex justify-between p-3 font-mono font-bold',
           'border-t border-beta bg-white',
           'group-hover:bg-gradient-omega-900 border-b border-b-transparent transition-colors duration-300 group-hover:border-b-omega-800 group-hover:text-white'
         )}
       >
-        <div className="flex items-center">{language}</div>
-        <div className="flex items-center">
+        <span className="w-full leading-normal">{language}</span>
+        {/* <div className="flex items-center">
           <BiStar className="mr-1 text-yellow-500" />
           {stars}
         </div>
         <div className="flex items-center">
           <BiGitRepoForked className="mr-1 text-beta" />
           {forks}
-        </div>
+        </div> */}
       </div>
     </a>
   )
