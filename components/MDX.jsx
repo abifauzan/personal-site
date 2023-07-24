@@ -11,6 +11,7 @@ import TipJar from '@/components/TipJar'
 import Newsletter from '@/components/Newsletter'
 import Typewriter from '@/components/Typewriter'
 import MDXPageTitle from '@/components/MDXPageTitle'
+import MDXPageDescription from '@/components/MDXPageDescription'
 
 const MDXYoutube = dynamic(() => import('@/components/MDXYoutube'))
 
@@ -21,6 +22,7 @@ const MDX = {
   img: MDXImage,
   Youtube: MDXYoutube,
   PageTitle: MDXPageTitle,
+  PageDescription: MDXPageDescription,
   Icon,
   Typewriter,
   TipJar,

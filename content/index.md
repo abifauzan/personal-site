@@ -8,8 +8,8 @@ seo:
 ---main
 images:
 
-- src: /hero-2.png
-  alt: my photo
+- src: /hero.png
+  alt: Abi fauzan photo
 - src: /hero-mobile.jpg
   alt: my photo
 
@@ -19,11 +19,11 @@ images:
 
 # _Full-Stack Developer_
 
-I am an experienced Web Engineer with expertise in all stages of advanced web development. I am knowledgeable in UI/UX creation, Front-end and Back-end integration, testing, and debugging processes. As a Full-stack Developer, I am proficient in various technologies, including React, Next, Node, MySQL, and Tailwind CSS. I have the ability to effectively self-manage during independent projects and work collaboratively as part of a productive team.
+Experienced Web Engineer with expertise in all stages of advanced web development. Knowledgeable in UI/UX creation, Front-end and Back-end integration, testing, and debugging processes. As a Full-stack Developer, I am proficient in various technologies, including React, Next, Node, MySQL, and Tailwind CSS. Highly self-managing and adept at both independent projects and collaborative teamwork.
 
 ```js {2-4} showLineNumbers
 const services = [
-  'Any Web Development'
+  'Web Development'
   'UI/UX Slicing'
   'Software Development'
 ]
@@ -37,7 +37,7 @@ if (you_have_a_project?)
   text: Years of experience
 - number: 50+
   text: Projects/Features Deployed
-- number: 3+
+- number: 4+
   text: Full-time employees
 - number: 15+
   text: Essentials Developer Skills
@@ -73,12 +73,14 @@ list:
 
 ---contact
 
-<PageTitle className="bg-transparent">
+<PageTitle>
 ### Get in touch
 ### _Let's talk about your project_
 </PageTitle>
 
-Thinking about a new project, a problem to solve, or just want to connect? Let's do it!
+<PageDescription>
+Thinking about a new project, a problem to solve, 
+or just want to connect? Let's do it!
 
 <Sep size="12" />
 
@@ -91,3 +93,5 @@ Thinking about a new project, a problem to solve, or just want to connect? Let's
 
 <Icon src="/icons/logo-twitter.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Github: [abifauzan](http://github.com/abifauzan)
 </small>
+
+</PageDescription>

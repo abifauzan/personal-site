@@ -21,18 +21,18 @@ const HeroPhoto = ({ main }) => (
         />
       </div>
     )}
-    {main.images?.[1] && (
+    {/* {main.images?.[1] && (
       <div className="md:hidden">
         <Image
           src={main.images[1].src}
           width={main.images[1].width}
           height={main.images[1].height}
           alt={main.images[1].alt}
-          className="mx-auto"
+          className="mx-auto my-5"
           priority
         />
       </div>
-    )}
+    )} */}
   </>
 )
 
@@ -87,78 +87,54 @@ const History = ({ title, list }) => (
   </>
 )
 
-const projectsDummy = [
+const projects = [
   {
-      "name": "leerob.io",
-      "owner": "leerob",
-      "url": "https://github.com/leerob/leerob.io",
-      "description": "âœ¨  My portfolio built with Next.js, Tailwind CSS, PlanetScale, and Vercel.",
-      "language": "TypeScript, Javascript, React, Tailwind, Redux, Framer",
-      "stars": 5824,
-      "forks": 1173
+      "name": "My Wedding Website",
+      "url": "https://www.abiika.space",
+      "description": "My wedding invitation website built with React, Tailwind, i18n and Firebase",
+      "language": "Javascript, Tailwind CSS, i18n, Firebase",
   },
   {
-      "name": "mdx-deck",
-      "owner": "jxnblk",
-      "url": "https://github.com/jxnblk/mdx-deck",
-      "description": "â™ ï¸ React MDX-based presentation decks",
-      "language": "JavaScript",
-      "stars": 11115,
-      "forks": 664
+    "name": "PXL.GRAM",
+    "url": "https://614ca838f142fc00b219d2a2--unruffled-euler-9afbe0.netlify.app/",
+    "description": "Albums/Photos app to fetch Album and Photo data with their users relationship from jsonplaceholder.typicode.com",
+    "language": "React, redux, framer-motion, styled-components",
   },
   {
-      "name": "og-image",
-      "owner": "vercel",
-      "url": "https://github.com/vercel/og-image",
-      "description": "Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc",
-      "language": "TypeScript",
-      "stars": 4001,
-      "forks": 1291
+    "name": "Pokemart",
+    "url": "https://6130d79493e16ec6794ff5a0--elated-mcclintock-36039f.netlify.app/",
+    "description": "Website about displaying All Pokemons including legendary pokemon and simulating cathing them based on 50% chance.",
+    "language": "React, swiper, framer-motion, styled-components",
   },
   {
-      "name": "leerob.io",
-      "owner": "leerob",
-      "url": "https://github.com/leerob/leerob.io",
-      "description": "âœ¨  My portfolio built with Next.js, Tailwind CSS, PlanetScale, and Vercel.",
-      "language": "TypeScript",
-      "stars": 5824,
-      "forks": 1173
+    "name": "Netflix UI Clone",
+    "url": "https://pair-94-dts-mini-project.netlify.app/",
+    "description": "Netflix website clone with Netflix API",
+    "language": "React, Redux, Tailwind, Styled-components, Swiper",
   },
   {
-      "name": "mdx-deck",
-      "owner": "jxnblk",
-      "url": "https://github.com/jxnblk/mdx-deck",
-      "description": "â™ ï¸ React MDX-based presentation decks",
-      "language": "JavaScript",
-      "stars": 11115,
-      "forks": 664
+    "name": "Pixel adventure",
+    "url": "https://github.com/abifauzan/PixelAdventure",
+    "description": "Game website Pixi.js Experiment.",
+    "language": "Pixi.js, HTML",
   },
   {
-      "name": "og-image",
-      "owner": "vercel",
-      "url": "https://github.com/vercel/og-image",
-      "description": "Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc",
-      "language": "TypeScript",
-      "stars": 4001,
-      "forks": 1291
+    "name": "Sentiment Analysis",
+    "url": "https://github.com/abifauzan/sentiment-analysis-lstm",
+    "description": "Sentiment Analysis using LSTM Network and Yelp Dataset",
+    "language": "Python",
   },
   {
-      "name": "mdx-deck",
-      "owner": "jxnblk",
-      "url": "https://github.com/jxnblk/mdx-deck",
-      "description": "â™ ï¸ React MDX-based presentation decks",
-      "language": "JavaScript",
-      "stars": 11115,
-      "forks": 664
+    "name": "Mobile App Design",
+    "url": "https://github.com/abifauzan/mobile-app-design",
+    "description": "Mobile UI design in Adobe XD",
+    "language": "Adobe XD",
   },
   {
-      "name": "og-image",
-      "owner": "vercel",
-      "url": "https://github.com/vercel/og-image",
-      "description": "Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc",
-      "language": "TypeScript",
-      "stars": 4001,
-      "forks": 1291
+    "name": "ICHAS 2019",
+    "url": "https://github.com/abifauzan/ichas-2019",
+    "description": "website for managing event at International Class Universitas Mercu Buana including registration and ticket management system",
+    "language": "Laravel PHP, MySQL, JavaScript, CSS (Bootstrap), HTML",
   },
 ]
 
@@ -189,7 +165,7 @@ const histories = [
       "list": [
           {
               "name": "Universitas Mercu Buana",
-              "description": "Bsc (Computer Science)",
+              "description": "Bachelor of Computer Science",
               "date": "2016 - 2020"
           },
           {
@@ -208,7 +184,7 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies, contact }) 
       <div className="mx-auto my-auto py-4 md:p-10 lg:p-20 relative">
         <div className="absolute right-0 top-0 box-content hidden h-full w-1/4 bg-gradient-to-br from-alpha-100 via-alpha to-beta pl-5 md:block" />
         <div className="items-end text-center md:flex md:text-left">
-          <div className="relative shrink-0 basis-1/2 text-center md:order-2 md:-ml-20">
+          <div className="relative shrink-0 basis-1/2 text-center md:order-2 md:-ml-20 left-14">
             <HeroPhoto main={main} />
           </div>
           <div className="z-10 mt-6 basis-full md:mb-12 md:mt-0">
@@ -224,8 +200,8 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies, contact }) 
             )}
           >
             <Achievements achievements={achievements} />
-            <div className="prose prose-invert grow text-center">
-              <a className="relative inline-flex items-center justify-center leading-normal no-underline group cursor-pointer select-none focus:outline-none peer md:peer-even:ml-6" href="/contact">
+            <div className="prose prose-invert grow text-center py-10 md:py-0">
+              <a href="/cv_abi_fauzan_2023.pdf" target='_blank' className="relative inline-flex items-center justify-center leading-normal no-underline group cursor-pointer select-none focus:outline-none peer md:peer-even:ml-6">
                 <div className="z-10 h-full w-full border-4 border-transparent group-active:border-alpha flex transform-gpu transition-transform not-prose font-mono py-4 px-8 text-base hover:translate-x-2 hover:translate-y-2 bg-white text-black">
                   <span className="mx-auto">Download Resume</span>
                 </div>
@@ -236,10 +212,10 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies, contact }) 
         </div>
       </div>
     
-      <div className='w-[80%] flex flex-col text-white pb-4 md:py-10 lg:py-24'>
-        <h2 className='text-left'>My Latest Projects</h2>
+      <div className='w-[80%] flex flex-col text-white pb-14 md:py-10 lg:py-24'>
+        <h2 className='text-center md:text-left'>My Latest Projects</h2>
         <div className="w-full mt-4 grid grid-cols-fluid gap-4 [--tw-fluid-col-min:20rem] md:mt-12 md:gap-6">
-          {projectsDummy.map((item, i) => (
+          {projects.map((item, i) => (
             <Reveal animation="fade-in slide-in-top" delay={i * 100} key={item.name}>
               <RepositoryCard {...item} />
             </Reveal>
@@ -255,10 +231,10 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies, contact }) 
         ))}
       </div>
 
-      <div className='py-12'>
+      <div className='md:py-12'>
         <Reveal
           animation="fade-in slide-in-right"
-          className="prose prose-invert basis-1/3 lg:mr-14"
+          className="prose prose-invert lg:mr-14"
         >
           <ContentRenderer source={contact} />
         </Reveal>
